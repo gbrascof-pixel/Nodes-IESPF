@@ -1,0 +1,56 @@
+
+			/*Menú desenganxat del carrusel*/
+.ast-below-header-wrap{margin-bottom:30px;}
+    body.home div.ast-below-header-bar.ast-below-header.site-header-focus-item{position:relative !important;}
+     .home .ast-primary-header-bar.ast-primary-header.main-header-bar.site-header-focus-item {border-radius: 30px 30px 15px 15px !important;}
+    .ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-2{margin-right: -15px;}
+div#ast-desktop-header {
+    background-color: white;
+    border-radius: 30px 30px 15px 15px;
+}
+.slick-list.draggable{border-radius: 15px 15px 30px 30px !important;}
+div#ast-desktop-header{
+    width: calc(100% - 70px);
+    margin-left: 35px;
+}
+    @media screen and (min-width: 769px) and (max-width: 921px) {.ast-primary-header-bar.ast-primary-header.main-header-bar.site-primary-header-wrap.site-header-focus-item.ast-builder-grid-row-layout-default.ast-builder-grid-row-tablet-layout-default.ast-builder-grid-row-mobile-layout-default{border-radius:30px !important}}
+    @media screen and (max-width: 48.063em) {.ast-primary-header-bar.ast-primary-header.main-header-bar.site-primary-header-wrap.site-header-focus-item.ast-builder-grid-row-layout-default.ast-builder-grid-row-tablet-layout-default.ast-builder-grid-row-mobile-layout-default{border-radius:30px !important}}
+    @media screen and (min-width: 782px) and (max-width: 922px) and (max-height: 899px) {.ast-primary-header-bar.ast-primary-header.main-header-bar.site-primary-header-wrap.site-header-focus-item.ast-builder-grid-row-layout-default.ast-builder-grid-row-tablet-layout-default.ast-builder-grid-row-mobile-layout-default{border-radius:30px !important}}
+
+
+/* Mostra 3 articles per fila */
+.ast-row{
+     display: grid !important;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 1rem;
+}
+.ast-row > article{width:100% !important;}
+div#primary:has(.ast-row){width:100% !important}
+
+@media screen and (min-width: 769px) and (max-width: 921px){
+.ast-row{
+     display: flex !important;
+}
+}
+@media screen and (max-width: 48.063em){
+.ast-row{
+     display: flex !important;
+}
+}
+@media screen and (min-width: 782px) and (max-width: 922px) and (max-height: 899px){
+.ast-row{
+     display: flex !important;
+}
+}
+
+
+/* Amaga espai lateral si no té contingut*/
+div#secondary:not(:has(.sidebar-main *)) {
+    display: none !important;
+}
+
+
+/* Uniformitza color de la primera franja del peu de pàgina en el cas de no tenir contingut  */
+.site-above-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-full.ast-builder-grid-row-tablet-full.ast-builder-grid-row-mobile-full.ast-footer-row-stack.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack{
+background-color: #F2F2F2;
+}
