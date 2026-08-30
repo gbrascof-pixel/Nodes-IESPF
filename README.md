@@ -15,9 +15,9 @@ A continuació es detallen els passos per aplicar les millores i configuracions 
 
 ### Part 1: Implementació d'Esdeveniments Extra (Flocs de neu i regals)
 
-[Winter README](Winter/README.md)
+**[Winter README](Winter/README.md)**
 ---
 
 ### Part 2: Personalització de l'Estil de Columnes via CSS
 
-[Improves README](Improves/README.md)
+**[Improves README](Improves/README.md)**
