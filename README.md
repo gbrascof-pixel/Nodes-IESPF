@@ -1,4 +1,4 @@
-# Nodes-IESPF 🚀
+# Nodes-IESPF
 
 Aquest repositori conté les personalitzacions, scripts i codi d'estils (CSS) utilitzats per a la implementació d'esdeveniments especials i millores visuals al Nodes de l'IES.
 
