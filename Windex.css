@@ -1,0 +1,15 @@
+.snowflake, .gift {
+            position: fixed;
+            top: -40px;
+            color: white;
+            z-index: 9999;
+            pointer-events: none;
+            user-select: none;
+            animation: fall linear forwards;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(120vh) rotate(360deg);
+            }
+        }
