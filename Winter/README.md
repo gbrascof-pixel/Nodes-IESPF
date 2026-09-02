@@ -14,7 +14,7 @@ Afegim un element **HTML personalitzat** a un dels blocs del **Footer** (peu de 
 ![Configuració del bloc footer](Captura%20de%20pantalla%202025-12-01%20193647.png)
 
 ### 3. Inserció del codi lògic (JavaScript)
-Copiem el contingut de la funció `<script></script>` del fitxer `html-personalitzat (flocs de neu + regals).txt` i l'enganxem dins del quadre de text del giny HTML personalitzat que acabem de crear.
+Copiem el contingut de `index.js` i l'enganxem dins del quadre de text del giny HTML personalitzat que acabem de crear.
 
 ### 4. Aplicació dels estils (CSS)
-Copiem l'estil CSS del fitxer `css-personalitza (flocs de neu + regals).txt` i el peguem a la secció **Personalitza** ➔ **CSS addicional** del tema de WordPress.
+Copiem l'estil CSS del fitxer `index.css` i l'enganxem a la secció **Personalitza** ➔ **CSS addicional** del tema de WordPress. Tal i com s'especifica a la cerpeta **`Improves/`**.
